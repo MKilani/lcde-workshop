@@ -18,20 +18,22 @@
       padding: 20px 20px;
       border-bottom: 1px solid #e5e7eb;
     }
-
+    
     .logo-container {
-      max-width: 900px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 40px;
-    }
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  gap: 40px; /* adds breathing room */
+}
 
-    .logo-container img {
-      height: 55px;
-      object-fit: contain;
-    }
+.logo-container img {
+  height: 55px;
+  object-fit: contain;
+}
+
 
     header {
       background: #1e293b;
@@ -92,10 +94,10 @@
   <div class="logo-bar">
     <div class="logo-container">
       <img src="images/unibas-logo.png" alt="University of Basel">
-      <div style="text-align:center; font-size:0.9em; color:#555; max-width:300px;">
-        <strong>LCDE Project Workshop</strong><br>
-        University of Basel
-      </div>
+      <div style="text-align:center; font-size:0.9em; color:#555; max-width:300px; margin: 0 20px;">
+  <strong>LCDE Project Workshop</strong><br>
+  University of Basel
+</div>
       <img src="images/snf-logo.png" alt="Swiss National Science Foundation">
     </div>
   </div>
