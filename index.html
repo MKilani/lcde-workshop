@@ -65,6 +65,25 @@
       background: #334155;
     }
 
+    .logo-bar {
+      background: white;
+      padding: 15px 20px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .logo-container {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-container img {
+      height: 45px;
+      object-fit: contain;
+    }
+
     footer {
       text-align: center;
       padding: 20px;
@@ -75,11 +94,14 @@
 </head>
 <body>
 
-  <header>
-    <div style="display:flex; justify-content: space-between; align-items: center; max-width: 900px; margin: 0 auto 20px auto;">
-      <img src="unibas-logo.png" alt="University of Basel" style="height:50px;">
-      <img src="snf-logo.png" alt="Swiss National Science Foundation" style="height:50px;">
+  <div class="logo-bar">
+    <div class="logo-container">
+      <img src="images/unibas-logo.png" alt="University of Basel">
+      <img src="images/snf-logo.png" alt="Swiss National Science Foundation">
     </div>
+  </div>
+
+  <header>
     <h1>New Approaches to Egyptian Grammar</h1>
     <p>Findings and Prospects of the LCDE Project</p>
     <p>4–5 May 2026 · University of Basel</p>
@@ -89,7 +111,7 @@
 
     <div class="card">
       <h2>Overview</h2>
-      <p><strong>Organizer:</strong> Dr. Marwan Kilani  test</p>
+      <p><strong>Organizer:</strong> Dr. Marwan Kilani</p>
       <p><strong>Format:</strong> In person (online option if demand allows)</p>
       <p><strong>Fee:</strong> Free of charge</p>
     </div>
